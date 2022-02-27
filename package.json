@@ -5,6 +5,7 @@
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
+    "build2": "nx run-many --target=build --projects=backend,frontend --parallel=true",
     "test": "nx test"
   },
   "private": true,
